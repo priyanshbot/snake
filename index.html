@@ -121,7 +121,7 @@ function draw() {
         headY >= canvasSize || 
         collision({x: headX, y: headY}, snake)
     ) {
-        clearInterval(game);
+        clearInterval(game); 
         alert("Game Over! Final Score: " + score);
         location.reload();
         return;
